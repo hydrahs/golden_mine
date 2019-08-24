@@ -1,0 +1,14 @@
+整行删除 ctrl+shift+k
+直接加入新的一行【下面】（无论光标在何处） ctrl + enter
+直接加入新的一行【上面】（无论光标在何处） ctrl +shift+ enter
+将整行代码进行移动 alt+上下方向键
+单行进行注释 ctlr+/
+代码格式化 alt+shift+f
+剪切行 ctrl+x 
+复制行 ctrl+c
+跳往匹配的括号 ctrl+shift+/
+折叠（折叠）区域  Ctrl+Shift+[ 
+Ctrl+Shift+]  展开（未折叠）区域
+Ctrl+K Ctrl+[ 折叠（未折叠）所有子区域
+块注释 shift+alt+a
+切换文本语言 ctlr+k m
