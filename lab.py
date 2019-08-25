@@ -4,14 +4,18 @@ k = ["a","c","b"]
 str = json.dumps(k)
 print(str) """
 
-with open( ) as f:
-    print(f.read())
-d = int(input(""))#note
-
+print('''
+**************图书管理系统*************
+（1）添加书籍
+（2）显示所有书籍
+（3）删减已有书籍
+（4）查询相关书籍
+''')
+d = int(input("请输入相关操作：",))#note
 
 def opration(d):
     if (d==1):#添加图书功能
-        pass
+        addBooks()
     elif(d==2):#查找功能
         pass
     elif(d==3):#delete the book
@@ -21,9 +25,14 @@ def opration(d):
     else:
         pass    # exist()    
 
-def fun1():
-    a = input("欢迎为智慧书屋添砖加瓦，请输入需要添加的书籍名称",)
-    
+def addBooks():
+    pass
+def showBooks():
+    pass
+def deleteBooks():
+    pass
+def searchBooks():
+    pass
 """ print('''
 可以跨行输入
 ''') """
